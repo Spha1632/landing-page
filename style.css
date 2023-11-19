@@ -21,8 +21,14 @@ ul {
 }
 
 .header {
-    padding: 8px 200px;
-    margin-bottom: 50px;
+    width: 75%;
+    margin: 16px auto;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
 }
 
 ul {
@@ -34,3 +40,37 @@ ul {
 li {
     list-style: none;
 }
+
+.hero-main-content {
+    display: flex;
+    width: 75%;
+    margin: 100px auto;
+    gap: 20px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-secondary-text,
+li {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+    font-weight: 900;
+}
+
+.hero-description {
+    padding-right: 10px;
+}
+
