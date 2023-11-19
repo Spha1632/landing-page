@@ -133,3 +133,42 @@ button {
     margin: 0 auto;
     font-weight: 900;
 }
+
+.call-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    height: 100px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin: 25px auto;
+    color: white;
+}
+
+.left {
+    margin-left: 100px;
+}
+
+.right {
+    margin-right: 100px;
+}
+
+.call-heading {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.right button {
+    border: 1px solid white;
+}
+
+.call-section {
+    margin-bottom: 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
