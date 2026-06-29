@@ -63,3 +63,36 @@ button {
     border-radius: 8px;
     margin-top: 8px;
 }
+
+.information-section {
+    padding: 20px 250px;
+}
+
+.information-header {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.illustrations {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.illustration-box {
+    width: 150px;
+}
+
+.illustration-image {
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 12px;
+}
+
+.box-subtext {
+    text-align: center;
+    margin-top: 8px;
+}
