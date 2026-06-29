@@ -100,7 +100,7 @@ button {
 
 .quote-section {
     background-color: #e5e7eb;
-    padding: 80px 250px;
+    padding: 80px 300px;
 }
 
 .quote-text {
@@ -113,4 +113,29 @@ button {
     text-align: right;
     font-weight: 900;
     font-size: 18px;
+}
+
+.call-to-action {  
+    padding: 20px 200px;
+}
+
+.border {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 30px 100px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-heading {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.border button {
+    border: 3px solid #e5e7eb;
+    padding: 8px 24px;
+    border-radius: 8px;
+    margin-top: 8px;
 }
